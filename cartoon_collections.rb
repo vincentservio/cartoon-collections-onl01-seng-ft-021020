@@ -35,6 +35,6 @@ def find_the_cheese(cheddar_cheese)  # code an argument here
   # the array below is here to help
   binding.pry]
   cheese_types = ["cheddar", "gouda", "camembert"]
-  chedder_cheese.find {|x| cheese_types.include?(cheese)}
+  chedder_cheese.find {|x| cheese_types.include?(x)}
   # if cheddar_cheese.include?("cheddar", "gouda", "camembert")
 end
